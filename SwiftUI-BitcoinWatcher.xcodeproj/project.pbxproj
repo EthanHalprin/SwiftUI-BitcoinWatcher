@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA665EFF27173468009B1C4F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA665EFE27173468009B1C4F /* NetworkService.swift */; };
 		AA7618E12716E61B00DF7192 /* CotentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7618E02716E61A00DF7192 /* CotentViewModel.swift */; };
 		AA7618E32716E67400DF7192 /* BackgroundModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7618E22716E67400DF7192 /* BackgroundModeService.swift */; };
 		AA7618E5271712D800DF7192 /* BitcoinPriceIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7618E4271712D800DF7192 /* BitcoinPriceIndex.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA665EFE27173468009B1C4F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		AA7618E02716E61A00DF7192 /* CotentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CotentViewModel.swift; sourceTree = "<group>"; };
 		AA7618E22716E67400DF7192 /* BackgroundModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModeService.swift; sourceTree = "<group>"; };
 		AA7618E4271712D800DF7192 /* BitcoinPriceIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitcoinPriceIndex.swift; sourceTree = "<group>"; };
@@ -103,10 +105,11 @@
 			children = (
 				AABAFB322716E435004C4BE6 /* Info.plist */,
 				AABAFB082716E2EF004C4BE6 /* SwiftUI_BitcoinWatcherApp.swift */,
-				AABAFB0A2716E2EF004C4BE6 /* ContentView.swift */,
-				AA7618E02716E61A00DF7192 /* CotentViewModel.swift */,
-				AA7618E4271712D800DF7192 /* BitcoinPriceIndex.swift */,
 				AA7618E22716E67400DF7192 /* BackgroundModeService.swift */,
+				AA665EFE27173468009B1C4F /* NetworkService.swift */,
+				AABAFB0A2716E2EF004C4BE6 /* ContentView.swift */,
+				AA7618E4271712D800DF7192 /* BitcoinPriceIndex.swift */,
+				AA7618E02716E61A00DF7192 /* CotentViewModel.swift */,
 				AABAFB0C2716E2F0004C4BE6 /* Assets.xcassets */,
 				AABAFB0E2716E2F0004C4BE6 /* Preview Content */,
 			);
@@ -270,6 +273,7 @@
 			files = (
 				AA7618E32716E67400DF7192 /* BackgroundModeService.swift in Sources */,
 				AABAFB0B2716E2EF004C4BE6 /* ContentView.swift in Sources */,
+				AA665EFF27173468009B1C4F /* NetworkService.swift in Sources */,
 				AA7618E12716E61B00DF7192 /* CotentViewModel.swift in Sources */,
 				AABAFB092716E2EF004C4BE6 /* SwiftUI_BitcoinWatcherApp.swift in Sources */,
 				AA7618E5271712D800DF7192 /* BitcoinPriceIndex.swift in Sources */,
