@@ -1,5 +1,5 @@
 # SwiftUI-BitcoinWatcher
-App to fetch bitcoin prices, also in the background (using BackgroundTasks)
+App to fetch current bitcoin price, also in the background (BackgroundTasks)
 
 * NOTE: Minimal Deployment Target: iOS 15
 
